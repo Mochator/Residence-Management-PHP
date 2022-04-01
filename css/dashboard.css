@@ -1,0 +1,97 @@
+.dashboard-item{
+	height: 180px;
+	width: 180px;
+	overflow-wrap: break-word;
+	padding: 20px;
+	text-align: right;
+	position: relative;
+	transition: transform 0.5s ease-in-out;
+	vertical-align: middle;
+	display: inline-block;
+	margin: 20px;
+	background-color: rgba(255,255,255,0.5);
+	text-transform: uppercase;
+	text-decoration: none;
+	color: 	black;
+	cursor: pointer;
+	border-width: 4px;
+	box-shadow: 1px 1px 3px 0.5px rgb(100,100,100);
+	border-style: solid;
+	border-image: 
+    linear-gradient(
+      to bottom, 
+      #FF4A3B,
+      #FFF797
+    ) 1 100%;
+}
+
+.dashboard a{
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	color: 	black;
+	position: relative;
+	display: inline-block;
+}
+
+
+.dashboard-item i{
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	background: -webkit-linear-gradient(#ff4a3b, #fff797);
+ 	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+.dashboard-item:hover{
+	transform: scale(1.01);
+}
+
+
+.dashboard {
+	text-align: center;
+}
+
+
+.dashboard-info{
+	position: static;
+	text-align: left;
+	background-color: rgba(255,255,255, 0.3);
+	border: 2.5px solid #FF4A3B;
+	padding: 20px;
+	border-radius: 20px;
+	margin: 20px 0;
+}
+
+.select-unit{
+	position: relative;
+	height:;
+	width: 40%;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	box-shadow: 0.5px 0.5px 2px black;
+	background: linear-gradient(180deg, rgba(255,74,59,1) 0%, rgba(240,240,240,1) 100%);
+	padding: 3%;
+	text-align: center;
+	display: none;
+}
+
+#select-unit input{
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 3px 5px;
+	transition: background-color 1s ease-in-out;
+	transition: color 1s ease-in-out;
+}
+
+#select-unit input:hover{
+	cursor: pointer;
+}
+
+button{
+	border: none;
+}

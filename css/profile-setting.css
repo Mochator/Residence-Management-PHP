@@ -1,0 +1,21 @@
+.input-field{
+	padding: 3px;
+}
+
+input[type=submit]{
+	width: 100%;
+	background-color: black;
+	color: white;
+	border: none;
+	padding: 10px 5px;
+	margin-bottom: 30px;
+}
+
+input[type=submit]:hover{
+	box-shadow: 2px 2px 3px 0px grey;
+	cursor: pointer;
+}
+
+input, select{
+	margin-top: 3px;
+}

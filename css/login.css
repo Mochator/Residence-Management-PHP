@@ -1,0 +1,74 @@
+/*CSS only for Login page*/
+body{
+	background-image: url("Resources/chineselanterns.gif");
+	background-repeat: repeat-x;
+	z-index: 1;
+}
+
+#login{
+	position: fixed;
+	height: 70%;
+	width: 40%;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	/*box-shadow: inset -15px -15px 100px 20px #E34234, 2px 2px 5px 0px black;
+	padding: 3%;
+	border-radius: 5px 5px;*/
+	text-align: center;
+	padding: 30px;
+	box-shadow: 1.5px 1.5px 4px black;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: white;
+	background-image: url("https://www.animatedimages.org/data/media/213/animated-mouse-image-0308.gif");
+	background-repeat: no-repeat;
+	background-size: 200px;
+	background-position: bottom right;
+
+}
+
+#title{
+	font-size: 36px;
+}
+
+img{
+	height: 50px;
+	object-fit: contain;
+}
+
+input[type=email], input[type=password]{
+	padding: 0.75%;
+	width: 80%;
+}
+
+input[type=submit]{ 
+	background-color: #000;
+	border: 0;
+	color: white;
+	width: 85%;
+	padding: 1%;
+}
+
+
+input[type=submit]:hover{
+	background-color: #E34234;
+	cursor: pointer;
+}
+
+input{
+	text-align: center;
+}
+
+#login_error{
+	visibility: hidden;
+	font-size: 8px;
+	color: red;
+	padding: 5px;
+}
+
+p{
+	text-align: left;
+}
